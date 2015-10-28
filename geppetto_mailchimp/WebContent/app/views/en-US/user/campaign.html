@@ -269,7 +269,7 @@
 				ng-disabled="campaign.campaignSno == '' || campaign.emailStatus || pickedSubscribers == ''"
 				ng-click="sendSMTPEmail()">Send Campaign</button> -->
 			<button class="btn complete"
-				ng-disabled="campaign.campaignSno == '' || campaign.emailStatus || pickedSubscribers == ''"
+				ng-disabled="campaign.campaignSno == '' || campaign.emailStatus"
 				ng-click="sendCampaign()">Send Campaign</button>
 			<button class="btn danger" ng-click="goBack()">Go Back</button>
 		</div>
